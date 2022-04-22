@@ -5,6 +5,7 @@ body {
     height: 250rem;
     /* background-color: teal; */
     /* overflow-y: hidden; */
+    zoom:99%;
 }
 *{
     box-sizing: border-box;
@@ -139,6 +140,7 @@ top:0px; */
 .third{
     width: 100vw;
     height: 20%;
+    /* margin:1% 1%; */
    
 }
 #facebook{
@@ -173,7 +175,7 @@ display: flex;
     outline:1em;
     outline-style:auto;
     font-size: 2.5em;
-    padding: 1% 2%;
+    padding: 2% 2%;
 }
 #image{
     width: 30%;
@@ -186,11 +188,23 @@ display: flex;
 }
 footer{
     height: inherit;
+    
     background-color: black;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
 }
+
 .center{
+    /* position: relative; */
+    /* text-align:center; */
+    /* top:2%; */
+    
+    display: flex;
     color:white;
-    font-size: 2em;
-    text-align: center;
+    font-size: 2.5em;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
 
 }
