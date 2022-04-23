@@ -73,14 +73,14 @@ top:0px; */
 #first{
     height: 30%;
     width: 100vw;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
 }
 #subfirst{
     height: 50%;
     width: 100vw;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +92,7 @@ top:0px; */
     height: 50%;
     width: 100vw;
     background-color: aliceblue;
-    padding:1% 2%;
+    padding:0% 2%;
     
 }
 #subsecond>h1{
@@ -100,6 +100,7 @@ top:0px; */
     text-align: center;
     font-size: -webkit-xxx-large;
     text-decoration: underline;
+    font-size:3em;
 }
 #subsecond>p{
     font-size: 2em;
